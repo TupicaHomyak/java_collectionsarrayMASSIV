@@ -1,9 +1,5 @@
 package practice.hospital;
 
-import java.util.Arrays;
-import java.util.Random;
-
-import static net.sf.saxon.value.Whitespace.trim;
 
 public class Hospital {
     static int max = 40;
