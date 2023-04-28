@@ -13,7 +13,7 @@ public class Hospital {
     public static float[] generatePatientsTemperatures(int patientsCount) {
         float [] patientTemperatures = new float[patientsCount];
         for (int i = 0; i < patientsCount; i++) {
-            float temperatureRandom = (float) ((Math.random() * (max -min))+ min); // случайная температура от 32 до 40 градусов
+            float temperatureRandom = (float) ((Math.random() * (max -min))+ min);
             patientTemperatures[i] = (float) Math.ceil(temperatureRandom * 10) / 10;
         }
         return patientTemperatures;
