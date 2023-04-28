@@ -1,10 +1,10 @@
 package practice.reverseArray;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class ReverseArray {
-
     public static String[] reverse(String[] strings) {
-        //TODO: Напишите код, который меняет порядок расположения элементов внутри массива на обратный.
+        Collections.reverse(Arrays.asList(strings));
         return strings;
     }
-
 }
